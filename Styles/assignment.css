@@ -1,0 +1,99 @@
+
+  body{
+    background-color: rgb(245, 245, 245);
+    margin: 0px 160px;
+  }
+ 
+ 
+ .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+ 
+
+  
+/* Nav styles */
+nav{
+    display:flex;
+    justify-content: space-between;
+    margin: 0px auto;
+
+}
+
+.nav-title{
+    font-weight 700px;
+    font-size 32px;
+    color: rgb(14, 14, 14);
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    font-weight: 600px;
+    font-size: 18px;
+    color: rgb(0, 106, 80);
+
+}
+
+/* Sign in Button */
+
+.btn{
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+    border-color: rgb(0, 106, 80);
+    font-weight 600px;
+    font-size 18px;
+    color: rgb(0, 106, 80);
+    
+}
+
+/* Hero Section */
+
+#hero{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+    padding: 80px 100px 80px 100px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    width: 622px;
+    height: 326px;
+    margin: 0px 64px;
+
+}
+.banner-title{
+    font-weight 500px;
+    font-size 24px;
+    color: rgba(14, 14, 14, 0.5);
+}
+.hero-text{
+    font-weight 700px;
+    font-size 56px;
+    color: rgb(14, 14, 14);
+}
+.banner-button{
+    background-color: rgb(0, 106, 80);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 17px 34px 17px 34px;
+    border: none;
+    font-weight 600px;
+    font-size 18px;
+    color: rgb(255, 255, 255);
+}
+.hero-image{
+    width: 474.03px;
+    height: 329.21px;
+}
